@@ -153,6 +153,10 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+######## USER
+# macOS system files
+.DS_Store
 /notes.md
 /ai_dumps.md
 
