@@ -3,7 +3,7 @@
 
 ---
 
-**Holodata is an attempt to make system prompts more accessible for developers, etc. The format and goal are to make prompt engineering easier to implement. The overall aim includes more ambitious ideals, such as enabling agents to achieve greater accuracy and freedom.**
+**holodata wants to make high-quality and tested system prompts more accessible**
 
 ---
 
