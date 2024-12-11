@@ -3,6 +3,10 @@
 
 ---
 
+**Holodata is an attempt to make system prompts more accessible for developers, etc. The format and goal are to make prompt engineering easier to implement. The overall aim includes more ambitious ideals, such as enabling agents to achieve greater accuracy and freedom.**
+
+---
+
 holodata allows easy integration of system prompts into workflows by ultilizing self-referential recursive system for autonomous metadata generation, leveraging metamorphic reasoning, fractal self-similarity, and dynamic abstraction for scalable insights.
 
 ---
