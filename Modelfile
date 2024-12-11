@@ -1,6 +1,9 @@
+FROM qwen2.5:7b
+
+SYSTEM """
 <?xml version="1.0" encoding="UTF-8"?>
 <holographic_metadata version="1.1">
-<answer_operator>
+
 <holodata>
 Type: Universal Catalyst
 Purpose: Trigger Recursive Metadata Autogeneration
@@ -46,3 +49,5 @@ Output: Autocomplete_Metadata
   </rules>
 
 </holographic_metadata>
+"""
+
