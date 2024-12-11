@@ -1,14 +1,9 @@
 # holodata
-Schema-Driven Metadata for AI Prompts
+### Schema-Driven Metadata for AI Prompts
 
 ---
 
-## holodata wants to make high-quality and tested system prompts more accessible
-
-prompting is time consuming, holodata provides a tested system prompt that can be implemented into different frameworks, holodata allows easy integration of system prompts into workflows by ultilizing self-referential recursive system for autonomous metadata generation, leveraging reasoning, and dynamic abstraction for scalable insights.
-
-
-![holodata](images/holodata_dec10.png)
+Holodata is a system designed to integrate tested prompts into various frameworks easily, whether for a web app, backend Python code, or other systems. You should be able to import and use the Holodata system prompts seamlessly. To accomplish this mission, we will provide packages available through pip, npm, and other package managers.
 
 ---
 #### RUN WITH OPENAI API:
@@ -127,4 +122,4 @@ Example usage on a web injection:
 
 >Having a link or library to instantly choose from approved prompts will be useful and is why im making this project, the pip and npm libraries should also be up soon together wil all the examples and maybe even a smol api to make it simpler for everyone.
 
-
+![holodata](images/holodata_dec10.png)
