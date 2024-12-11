@@ -1,5 +1,5 @@
 # holodata
-**Schema-Driven Metadata for AI Prompts**
+## Schema-Driven Metadata for AI Prompts
 
 ---
 
