@@ -32,7 +32,7 @@ curl -s https://cdn.jsdelivr.net/gh/NeoVertex1/holodata@main/holodata.xml -o sys
   FROM qwen2.5:7b
 
   SYSTEM """
-  [Paste or import the content of system_prompt.xml here]
+  [Paste or import the content of holodata.xml here]
   """
   ```
 
