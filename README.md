@@ -1,20 +1,14 @@
 # holodata
-## Schema-Driven Metadata for AI Prompts
+Schema-Driven Metadata for AI Prompts
 
 ---
 
-**holodata wants to make high-quality and tested system prompts more accessible**
+## holodata wants to make high-quality and tested system prompts more accessible
 
----
+prompting is time consuming, holodata provides a tested system prompt that can be implemented into different frameworks, holodata allows easy integration of system prompts into workflows by ultilizing self-referential recursive system for autonomous metadata generation, leveraging reasoning, and dynamic abstraction for scalable insights.
 
-holodata allows easy integration of system prompts into workflows by ultilizing self-referential recursive system for autonomous metadata generation, leveraging metamorphic reasoning, fractal self-similarity, and dynamic abstraction for scalable insights.
-
----
 
 ![holodata](images/holodata_dec10.png)
-
-
-
 
 ---
 #### RUN WITH OPENAI API:
