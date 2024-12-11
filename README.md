@@ -1,6 +1,12 @@
 # holodata
 **Schema-Driven Metadata for AI Prompts**
 
+---
+
+holodata allows easy integration of system prompts into workflows by ultilizing self-referential recursive system for autonomous metadata generation, leveraging metamorphic reasoning, fractal self-similarity, and dynamic abstraction for scalable insights.
+
+---
+
 ![holodata](images/holodata_dec10.png)
 
 
