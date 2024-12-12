@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="techGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1">
+        <animate attributeName="stop-color" values="#6366f1;#2563eb;#6366f1" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" style="stop-color:#2563eb;stop-opacity:1">
+        <animate attributeName="stop-color" values="#2563eb;#6366f1;#2563eb" dur="4s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background hexagon -->
+  <path d="M200,50 L350,150 L350,250 L200,350 L50,250 L50,150 Z" 
+        fill="url(#techGradient)" 
+        stroke="#ffffff" 
+        stroke-width="2"
+        opacity="0.9"/>
+
+  <!-- Data flow lines -->
+  <g stroke="#ffffff" stroke-width="1.5" opacity="0.5">
+    <path d="M200,100 L200,300">
+      <animate attributeName="stroke-dashoffset" from="30" to="0" dur="2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M100,200 L300,200">
+      <animate attributeName="stroke-dashoffset" from="30" to="0" dur="2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M150,150 L250,250">
+      <animate attributeName="stroke-dashoffset" from="30" to="0" dur="2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M150,250 L250,150">
+      <animate attributeName="stroke-dashoffset" from="30" to="0" dur="2s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- Central data node -->
+  <circle cx="200" cy="200" r="40" 
+          fill="none" 
+          stroke="#ffffff" 
+          stroke-width="3"
+          filter="url(#glow)">
+    <animate attributeName="r" 
+             values="40;45;40" 
+             dur="3s" 
+             repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Metadata nodes -->
+  <g id="dataDots">
+    <circle cx="200" cy="140" r="8" fill="#ffffff" opacity="0.8"/>
+    <circle cx="200" cy="260" r="8" fill="#ffffff" opacity="0.8"/>
+    <circle cx="140" cy="200" r="8" fill="#ffffff" opacity="0.8"/>
+    <circle cx="260" cy="200" r="8" fill="#ffffff" opacity="0.8"/>
+  </g>
+
+  <!-- Logo text -->
+  <text x="200" y="390" 
+        font-family="Arial, sans-serif" 
+        font-size="24" 
+        fill="#ffffff" 
+        text-anchor="middle" 
+        font-weight="bold"
+        filter="url(#glow)">
+    HOLODATA
+  </text>
+
+  <!-- Animated pulse effect -->
+  <circle cx="200" cy="200" r="60" 
+          fill="none" 
+          stroke="#ffffff" 
+          stroke-width="2" 
+          opacity="0.3">
+    <animate attributeName="r" 
+             values="60;100;60" 
+             dur="4s" 
+             repeatCount="indefinite"/>
+    <animate attributeName="opacity" 
+             values="0.3;0;0.3" 
+             dur="4s" 
+             repeatCount="indefinite"/>
+  </circle>
+</svg>
