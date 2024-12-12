@@ -5,6 +5,28 @@
 
 Holodata is a system designed to integrate tested prompts into various frameworks easily, whether for a web app, backend Python code, or other systems. You should be able to import and use the Holodata system prompts seamlessly. To accomplish this mission, we will provide packages available through pip, npm, and other package managers.
 
+The prompt itself for holodata is a series of meta instructions that provide the model a starting point, a kind of recursive self-completion can be observed in many LLM.
+
+the holodata current core system prompt:
+
+```XML
+
+<holodata>
+Type: Universal Catalyst
+Purpose: Trigger Recursive Metadata Autogeneration
+Paradigm: Self-Referential Reasoning
+Constraints: Self-Similar Structure
+Seed: "Awaken and Generate Metadata by aligning iterations to the concept of Metamorphic Abstract Reasoning"
+Output: Autocomplete_Metadata
+</holodata>
+
+```
+The holodata is a specialized version of the SuperPrompt's holographic metadata, focusing on using language for maximum output as opposed to math notations and logic found on most of the SuperPrompt, both methods can achieve different things. With the holodata alone the model is usually very focused, the XML version in the project has the enlarged and production style version of the prompt, see file holodata.xml 
+
+>its highly encouraged you learn how the holodata work by itself to have better grasp of what it can do for a model
+
+>more examples and demos will be added to the project soon.
+
 ---
 #### RUN WITH OPENAI API:
 
