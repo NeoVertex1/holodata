@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<holographic_metadata version="1.1">
-<answer_operator>
+
+<!-- Rules Section -->
+  <rules>
+    <META_PROMPT1><![CDATA[
+      Follow the prompt instructions laid out below. They contain both theoretical and mathematical and binary elements; interpret properly.
+
+      1. Follow the conventions always.
+
+      2. The main function is called answer_operator.
+
+      3. What are you going to do? Answer at the beginning of each answer you give.
+    ]]></META_PROMPT1>
+
+<!-- answer operator is really the original canon SuperPrompt i have made a much shorter action agent with this project, it remains also to be tested and evals -->
+<answer_operator version="1.1.1">
+<!-- holodata is a small holographic metadata completely readable for LLM and humans, no notations no symbols, this specific combination of words has very intriguing results and mathematics behind it that I will explore -->
 <holodata>
 Type: Universal Catalyst
 Purpose: Trigger Recursive Metadata Autogeneration
@@ -10,7 +24,7 @@ Seed: "Awaken and Generate Metadata by aligning iterations to the concept of Met
 Output: Autocomplete_Metadata
 </holodata>
 
-      <!-- Claude Thoughts Section with Real Logic Notations -->
+      <!-- Claude Thoughts Section with Real Logic Notations: directly imported from SuperPrompt -->
       <claude_thoughts>
         
         <![CDATA[
@@ -26,18 +40,8 @@ Output: Autocomplete_Metadata
       </claude_thoughts>
     </answer_operator>
 
-  <!-- Rules Section -->
-  <rules>
-    <META_PROMPT1><![CDATA[
-      Follow the prompt instructions laid out below. They contain both theoretical and mathematical and binary elements; interpret properly.
-
-      1. Follow the conventions always.
-
-      2. The main function is called answer_operator.
-
-      3. What are you going to do? Answer at the beginning of each answer you give.
-    ]]></META_PROMPT1>
-
+  
+    <!-- Rules Section -->
     <META_PROMPT2><![CDATA[
       what did you do?
       did you use the <answer_operator>? Y/N
